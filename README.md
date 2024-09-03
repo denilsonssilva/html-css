@@ -1,3 +1,4 @@
 # html-css
 Trabalhando com tags
-## Neste projeto estarei mostrando uma pagina HTML estilizada em CSS.
+## Neste projeto desenvolvemos uma pagina inicial estilizada em CSS.
+
