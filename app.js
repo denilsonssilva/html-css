@@ -6,7 +6,7 @@ let campoPesquisa = document.getElementById('campo-pesquisa').value
 
     //se campoPesquisa for uma string sem nada
     if (!campoPesquisa){
-        section.innerHTML = '<p>Nada foi digitado</p>'
+        section.innerHTML = '<p style="color: red; font-size: 20px; background-color: black">Nada foi digitado</p>'
         return
     }
 
@@ -25,6 +25,8 @@ let campoPesquisa = document.getElementById('campo-pesquisa').value
         titulo = dado.titulo.toLocaleLowerCase()
         sinopse = dado.sinopse.toLocaleLowerCase()
         tags = dado.tags.toLocaleLowerCase()
+        
+        
 
         // se titulo inclui campoPesquisa
         if(titulo.includes(campoPesquisa) || sinopse.includes(campoPesquisa) || tags.includes(campoPesquisa)){
@@ -33,11 +35,18 @@ let campoPesquisa = document.getElementById('campo-pesquisa').value
             resultados += `
             <div class="item-resultado">
                 <h2>
-                <a href="" target="_blank">${dado.titulo}</a>
+                <a href="${dado.link}" target="_blank">${dado.titulo}</a>
                 </h2>
-                <p class="descricao-meta">${dado.sinopse}</p>
-                <p>${dado.genero}</p>
-                <p>${dado.duracao}</p>
+                <a href="${dado.link}" target="_blank">
+                <img src="${dado.imagem}" alt="${titulo}" target="_blank" a>
+                </a>
+                <p>Diretor: ${dado.diretor}</p>
+                <p>Ano de lançamento: ${dado.anoLancamento}</p>
+                <p>Sinopse: ${dado.sinopse}</p>
+                <p>Gênero: ${dado.genero}</p>
+                <p>Duração do Filme: ${dado.duracao}</p>
+                <a href="${dado.streaming}" target="_blank">Onde assistir saiba mais...</a><br>
+                <a href="${dado.trailer}" target="_blank">Trailer</a>
             </div>
             `;
         }
@@ -45,7 +54,7 @@ let campoPesquisa = document.getElementById('campo-pesquisa').value
     }
 
     if (!resultados){
-        resultados = '<p>Nada foi encontrado para sua busca</p>'
+        resultados = '<p style="color: red; font-size: 20px; background-color: black">Nada foi encontrado para sua busca</p>'
 
     }
   
