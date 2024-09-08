@@ -9,7 +9,7 @@ let dados = [
         trailer: 'https://www.youtube.com/watch?v=veszTagaXik&ab_channel=SonyPicturesatHomeUK',
         tags: 'tabuleiro jogo',
         imagem: 'https://images.uncyc.org/pt/thumb/b/bc/Jumanji-poster.jpg/300px-Jumanji-poster.jpg',
-        link: "https://desciclopedia.org/wiki/Jumanci",
+        link: "https://desciclopedia.org/wiki/Jumanji",
         streaming: 'https://www.justwatch.com/br/filme/jumanji',
     },
     {
