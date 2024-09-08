@@ -4,30 +4,64 @@ let dados = [
         sinopse: 'Jumanji é uma franquia de filmes de aventura e fantasia...',
         genero: 'Aventura',
         duracao: '104 minutos',
-        tags: 'tabuleiro jogo'
+        diretor: 'Jake Kasdan, Joe Johnston',
+        anoLancamento: '1995',
+        trailer: 'https://www.youtube.com/watch?v=veszTagaXik&ab_channel=SonyPicturesatHomeUK',
+        tags: 'tabuleiro jogo',
+        imagem: 'https://images.uncyc.org/pt/thumb/b/bc/Jumanji-poster.jpg/300px-Jumanji-poster.jpg',
+        link: "https://desciclopedia.org/wiki/Jumanci",
+        streaming: 'https://www.justwatch.com/br/filme/jumanji',
     },
     {
-        titulo: 'Indiana Jones e os Caçadores da Arca Perdida',
-        sinopse: 'Um arqueólogo aventureiro embarca em uma busca pela Arca da Aliança.',
-        genero: 'Aventura',
-        duracao: '115 minutos',
-        tags: 'Arqueologo professor'
+        titulo: 'O Poderoso Chefão',
+        sinopse: 'A história da poderosa família Corleone e do patriarca Vito Corleone.',
+        genero: 'Drama',
+        duracao: '175 minutos',
+        diretor: 'Francis Ford Coppola',
+        anoLancamento: '1972',
+        trailer: 'https://www.youtube.com/watch?v=UaVTIH8mujA&ab_channel=ParamountPictures',
+        tags: 'máfia, família',
+        imagem: 'https://upload.wikimedia.org/wikipedia/pt/d/de/Godfather_1972.jpg',
+        link: "https://pt.wikipedia.org/wiki/The_Godfather",
+        streaming: 'https://www.netflix.com/br/title/70153403'
     },
     {
-        titulo: 'Piratas do Caribe: A Maldição do Pérola Negra',
-        sinopse: 'Um jovem marinheiro se junta a um grupo de piratas em busca de um tesouro.',
-        genero: 'Aventura',
-        duracao: '143 minutos',
-        tags: 'navio Jhonny Deep'
+        titulo: 'Coringa',
+        sinopse: 'Um estudo profundo sobre a origem do vilão mais famoso da DC Comics.',
+        genero: 'Drama, Crime',
+        duracao: '122 minutos',
+        diretor: 'Todd Phillips',
+        anoLancamento: '2019',
+        trailer: 'https://www.youtube.com/watch?v=jfVTJm9NilA&ab_channel=WarnerBros.PicturesBrasil',
+        tags: 'super-herói, psicopata',
+        imagem: 'https://upload.wikimedia.org/wikipedia/pt/6/63/Joker_%282019%29.jpg',
+        link: "https://pt.wikipedia.org/wiki/Joker_%28filme%29",
+        streaming: 'https://www.justwatch.com/br/filme/joker-2019'
     },
     {
-        titulo: 'Moana',
-        sinopse: 'Uma jovem princesa polinésia embarca em uma jornada para salvar seu povo.',
-        genero: 'Aventura',
-        duracao: '107 minutos',
-        tags: 'animação Animação'
+        titulo: 'Parasita',
+        sinopse: 'Uma família pobre trama um plano para se infiltrar na vida de uma família rica.',
+        genero: 'Thriller, Drama',
+        duracao: '132 minutos',
+        diretor: 'Bong Joon-ho',
+        anoLancamento: '2019',
+        trailer: 'https://www.youtube.com/watch?v=m4jfE-TxC24&ab_channel=F%C3%A3sdeCinema',
+        tags: 'classe social, suspense',
+        imagem: 'https://upload.wikimedia.org/wikipedia/pt/b/be/Parasite_poster.jpg',
+        link: "https://pt.wikipedia.org/wiki/Gisaengchung",
+        streaming: 'https://www.justwatch.com/br/filme/parasitas'
+    },
+    {
+        titulo: 'O Senhor dos Anéis: A Sociedade do Anel',
+        sinopse: 'Um hobbit se junta a um grupo de companheiros para destruir um anel poderoso.',
+        genero: 'Fantasia',
+        duracao: '201 minutos',
+        diretor: 'Peter Jackson',
+        anoLancamento: '2001',
+        trailer: 'https://www.youtube.com/watch?v=0i86oM1nHjM&ab_channel=VeloxTickets',
+        tags: 'fantasia, aventura aneis frodo',
+        imagem: 'https://upload.wikimedia.org/wikipedia/pt/3/38/Lord_of_the_Rings_Fellowship_of_the_Ring.jpg',
+        link: "https://pt.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring",
+        streaming: 'https://www.justwatch.com/br/filme/o-senhor-dos-aneis-a-sociedade-do-anel'
     }
-
 ];
-
-
